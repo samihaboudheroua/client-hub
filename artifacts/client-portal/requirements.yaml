@@ -1,0 +1,16 @@
+packages:
+  "framer-motion": "Animations and page transitions"
+  "date-fns": "Date formatting for requests and comments"
+  "react-hook-form": "Form state management"
+  "@hookform/resolvers": "Zod validation for forms"
+  "clsx": "Utility for constructing className strings"
+  "tailwind-merge": "Utility for merging tailwind classes"
+
+images:
+  - path: "artifacts/client-portal/public/images/auth-bg.png"
+    description: "Abstract minimal geometric background in sophisticated indigo and slate tones, clean professional style"
+    aspect_ratio: "16:9"
+
+notes:
+  - Using generated React Query hooks from @workspace/api-client-react
+  - Forms use local Zod schemas matched to OpenAPI input types
